@@ -1,0 +1,31 @@
+table th,
+td {
+    border: solid 2px #a9a9a9;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin: auto;
+    align-items: center;
+    background-color: aquamarine;
+    text-align: center;
+}
+.inputContainer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: solid 5px darkgrey;
+}
+input{
+    font-weight: bold;
+    width: 150px;
+    height: 20px;
+    border: 3px solid darkgray;
+    border-radius: 25px;
+}
+button{
+    font-weight: bold;
+    width: 80px;
+    height: 4-px;
+    border: 3px solid darkgray;
+    border-radius: 25px;
+}

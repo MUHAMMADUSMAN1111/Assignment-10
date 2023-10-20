@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inputContainer">
+        <input type="text" id="inputValue" placeholder=" SEARCH BY POSTID ">
+        <button onclick="searchValue()">Search</button>
+        <button onclick="clearbtn()">Clear</button>
+    </div>
+    <center>
+        <div class="tableData" id="tableData">
+            <table>
+                <tr>
+                    <th class="pr">POST ID</th>
+                    <th class="pr">Id</th>
+                    <th class="pr">NAME</th>
+                    <th class="pr">COMMENT</th>
+                </tr>
+                <tbody id="myTable">
+
+                </tbody>
+            </table>
+        </div>
+    </center>
+    <center>
+        <div class="SearchTableData">
+            <table>
+                <tr>
+                    <th class="pr">POST ID</th>
+                    <th class="pr">Id</th>
+                    <th class="pr">NAME</th>
+                    <th class="pr">COMMENT</th>
+                </tr>
+                <tbody id="SearchTable">
+
+                </tbody>
+            </table>
+        </div>
+    </center>
+
+</body>
+<script src="app.js"></script>
+
+</html>
